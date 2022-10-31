@@ -1,0 +1,17 @@
+fun main(){
+    var a:Any = 1
+    a = 20L
+    println("a: $a type: ${a.javaClass}")
+
+    checkArg("Hi") //문자열을 인자로 넣음
+    checkArg(5) //숫자를 인자로 넣음
+}
+
+fun checkArg(x:Any){ //인자를 Any형으로 받음
+    if(x is String){
+        println("x is String: $x")
+    }
+    if( x is Int){
+        println("x is Int: $x")
+    }
+}
