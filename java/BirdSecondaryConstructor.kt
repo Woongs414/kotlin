@@ -1,4 +1,4 @@
-class Bird2{
+class Bird3{
     // 프로퍼티들 - 선언
     var name : String
     var wing : Int
@@ -18,7 +18,7 @@ class Bird2{
 }
 
 fun main(){
-    val coco = Bird2("mybird", 2, "short", "blue")
+    val coco = Bird3("mybird", 2, "short", "blue")
     println("coco.color: ${coco.color}")
     coco.fly()
     coco.sing(3)

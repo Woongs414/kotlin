@@ -1,4 +1,4 @@
-class Bird3{
+class Bird5{
     var name:String
     var wing:Int
     var beak :String
@@ -22,9 +22,9 @@ class Bird3{
     fun sing(vol:Int) = println("Sing vol : $ vol")
 }
 fun main() {
-    var bird1 = Bird3("mybird", 2 ,"short","blue")
+    var bird1 = Bird5("mybird", 2 ,"short","blue")
     //첫 번째 부 생성자 호출
-    val bird2 = Bird3("mybird2", "long")
+    val bird2 = Bird5("mybird2", "long")
     println("bird1.clolr : ${bird1.color}")
     println("bird2.color: ${bird2.color}")
     bird1.fly()
